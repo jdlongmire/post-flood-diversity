@@ -22,7 +22,7 @@ Christian Designism
 |   `-- creation-cosmology-programmes
 |
 |-- Flood Geology
-|   `-- global-flood-hydrotectonic-model   <- upstream historical commitment
+|   `-- global-flood-hydrotectonic-model   <- sibling geological mechanism
 |
 `-- Post-Flood Biology
     `-- post-flood-diversity                <- this repo
@@ -34,9 +34,7 @@ Christian Designism
         `-- Ark biological/logistics interface
 ```
 
-PDP consumes the global Flood as an upstream historical commitment from
-`jdlongmire/global-flood-hydrotectonic-model`. It does not duplicate the
-geological mechanism. See `traceability/dependencies.yaml`.
+PDP receives the global-Flood historical commitment through the Christian Designism programme layer. `jdlongmire/global-flood-hydrotectonic-model` is a sibling mechanistic model for Flood geology, not the epistemic source of that commitment. PDP may consume its outputs conditionally without making GFH part of PDP's hard core. See `traceability/dependencies.yaml`.
 
 ## Hard core
 
