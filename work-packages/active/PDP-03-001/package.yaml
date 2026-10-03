@@ -1,0 +1,73 @@
+id: PDP-03-001
+title: Canidae Founder Allele-Burden Experiment
+status: active
+disposition: open
+opened: 2026-10-03
+parent: PDP-03
+
+objective: >
+  Pre-register and execute the first locus-wise Canidae founder allele-burden
+  measurement under CAN-H-F, using public genomic data while preserving the
+  OBS/INF/AUX/PDP firewall.
+
+scope:
+  includes:
+    - autosomal orthologous callable sequence positions
+    - explicit reference assembly and dataset versions
+    - locus-wise observed nucleotide-state counts
+    - <=4 versus >4 state distribution
+    - QC/orthology/paralogy filters
+    - residual accounting and sensitivity analysis
+    - parallel conventional-reconstruction column using the same observations
+  excludes:
+    - structural variants in the first pass
+    - chromosome rearrangements in the first pass
+    - copy-number loci in the first pass
+    - importing source-paper divergence times into PDP chronology
+    - assuming inferred ancestral states are observations
+
+dataset_freeze:
+  primary_family_breadth:
+    bioproject: PRJNA822671
+    description: South American canids whole-genome raw reads; 18 BioSamples, 27 SRA experiments, multispecies
+    role: family-breadth calibration beyond Canis
+  caninae_breadth:
+    bioproject: PRJNA494815
+    description: raw whole-genome reads from 8 Caninae species; 15 BioSamples
+    role: cross-species calibration and reticulation-aware comparison
+  canis_replication:
+    bioproject: PRJNA494719
+    description: 28 Canis individuals
+    role: replicate within a narrower reticulating cluster
+  large_canine_panel:
+    bioproject: PRJNA648123
+    variant_archive: PRJEB62420
+    description: Dog10K phase-one panel; 1,987 analyzed canids, including dogs, wolves, and coyotes
+    role: within-Canis allele-richness and QC/method calibration, not family-wide proof
+  reference:
+    assembly: GCF_011100685.1
+    name: UU_Cfam_GSD_1.0
+    role: first-pass coordinate/reference framework
+
+pre_registered_primary_endpoint: >
+  Among retained autosomal single-copy orthologous callable nucleotide sites,
+  report the count and proportion with 1, 2, 3, 4, and >4 observed nucleotide
+  states across the frozen sample set.
+
+critical_interpretation_note: >
+  At a single nucleotide coordinate the alphabet itself has only four canonical
+  states (A,C,G,T). Therefore a raw SNV-site >4-state endpoint is structurally
+  impossible and cannot test the four-founder-allele constraint by itself.
+  The experiment must additionally define allele at a multi-base locus/haplotype
+  or other homologous locus unit before using >4 observed alleles as the critical
+  founder-burden endpoint. This is a protocol correction discovered before
+  execution, not after seeing results.
+
+verification: >
+  Protocol and locus definition are frozen before endpoint computation; every
+  retained numerical input is sourced; code is reproducible; no conventional
+  chronology enters PDP calculations; null/uninformative endpoints are reported.
+
+epistemic_note: >
+  Same observations may be interpreted under PDP and conventional reconstruction
+  columns. Neither interpretation is allowed to rewrite the observation column.
