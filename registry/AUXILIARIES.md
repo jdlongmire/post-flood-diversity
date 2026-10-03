@@ -43,6 +43,18 @@ place; never moved into the core unless the commitment itself changes.
   for them.
 - See `2-theory/ark-interface/`.
 
+## Predecessor hypotheses under evaluation
+
+These are literature-derived hypotheses and are **not active PDP AH entries**. They become active only if PDP identifies a quantified explanatory deficit and explicitly adopts/tests one.
+
+- **PH-01 Founder-event sorting:** Lightner & Ahlquist (2017). Repeated founder events sort ancestral variation and contribute to rapid post-Flood differentiation.
+- **PH-02 AGE/mobile-element hypothesis:** Wood (2002). Transposable/mobile genetic elements proposed as drivers of rapid intrabaraminic diversification.
+- **PH-03 VIGE/baranome family:** Terborg. Pluripotent founder genomic architecture plus variation-inducing elements/regulatory mechanisms.
+- **PH-04 Hemizygosity/supergene latent-trait hypothesis:** Terborg (2020). Latent feature modules carried hemizygously and subsequently fixed or lost.
+- **PH-05 High created heterozygosity:** predecessor form of A-02a. PDP retains the standing-variation concept but requires a quantitative ceiling under A-02b.
+
+Disposition and sources: `3-evidence/literature/research-landscape.md` and `traceability/source-register.md`.
+
 ## Ancillary hypothesis protocol
 
 New explanatory mechanisms are registered as `AH-###` entries before they are relied upon in a quantitative appraisal. Each entry records:
