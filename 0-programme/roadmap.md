@@ -5,9 +5,11 @@
 ### PDP-01 Programme formalization
 Convert the seed specification into the formal charter, hard core, heuristics,
 auxiliary register, terminology, and traceability structure. Deliverable: this
-repository at PDP-1. Status: in progress (this repo).
+repository at PDP-1. Status: completed; repository scaffold and programme controls established.
 
 ### PDP-02 Kind Boundary Project
+**Status: active (2026-10-03).** Decision framework: `1-boundary/kind-boundary-decision-framework.md`.
+
 Determine defensible candidate boundaries using morphology, reproductive
 compatibility, comparative genomics, developmental architecture, and
 phylogenetic structure. Body-plan and family-level hypotheses compete; neither
