@@ -42,6 +42,37 @@ Before WGKS execution, every included taxon must have exact assembly accession/v
 
 The primary same-taxon-intersection comparison uses only taxa eligible for both methods. Each method also receives a maximal-eligible analysis. Both are reported.
 
-## Current gap
+## Second-pass verified additions
 
-This v0.1 manifest does not yet claim a complete family-wide set. It records only accessions verified in the first freeze pass. Additional genera must be added from primary NCBI/ENA records before execution. Absence here means unverified, not unavailable.
+| Taxon | Resource | Accession / project | Verified properties | Disposition |
+|---|---|---|---|---|
+| Urocyon cinereoargenteus | mainland gray fox reference | PRJNA1005958 / GCA_032313775.1 | chromosome-level assembly; 6 SRA experiments; 260 Gbases | WGKS-A; GCM pending annotation/proteome verification |
+| Lycaon pictus | mLycPic1 maternal haplotype | PRJNA1099604 / GCA_040955705.1 | chromosome-level, 39 chromosomes; 38,824 protein sequences; published phased diploid genome work | WGKS-A; strong GCM candidate |
+| Lycaon pictus | earlier wild-dog genomes | PRJNA304992 / GCA_001883655.1 and GCA_001887905.1 | two chromosome-level assemblies from Kenya and South Africa | WGKS sensitivity / within-taxon assembly control |
+| Nyctereutes procyonoides | RefSeq raccoon dog | PRJNA955236 / GCF_905146905.1 | scaffold-level RefSeq; 46,612 protein sequences; NCBI annotation pipeline | GCM candidate; WGKS-B |
+| Nyctereutes procyonoides | source GenBank project | PRJEB41734 / GCA_905146905.1 | scaffold assembly; PacBio + ONT + Omni-C; 27,168 project protein sequences | provenance/sensitivity |
+| Vulpes lagopus | Arctic fox | PRJNA704825 / GCA_018835635.1 | scaffold-level assembly | WGKS-B; GCM pending annotation/proteome verification |
+
+## Lineage coverage achieved in v0.1
+
+The verified manifest now contains representatives from:
+- Urocyon, useful as a deeply distinct living canid lineage in conventional taxonomy;
+- Vulpes;
+- Nyctereutes;
+- Lycaon;
+- Canis;
+- Chrysocyon;
+- Speothos.
+
+This is sufficient to define a meaningful first family-breadth intersection, but not to claim exhaustive genus coverage.
+
+## Remaining freeze work
+
+Before execution:
+1. verify exact current proteome accessions/completeness for every GCM taxon;
+2. add other available genera only if they pass the same predeclared criteria;
+3. capture assembly span/N50/ambiguous-base/repeat-policy metrics;
+4. freeze the final same-taxon GCM/WGKS intersection;
+5. retain excluded taxa with explicit exclusion reasons.
+
+Absence from the manifest means unverified or ineligible under the current data rule, not biological exclusion.
