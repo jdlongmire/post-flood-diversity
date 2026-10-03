@@ -70,6 +70,12 @@ protective-belt adjustment.
 Giving a founder pair more than four alleles at an autosomal locus changes the
 origin stock; it is not a minor patch.
 
+**Rule 3 (observation/model firewall).** Every substantive empirical input must be classified, where applicable, as (a) observation or measurement, (b) model-dependent inference, (c) auxiliary assumption, or (d) PDP interpretation. A result produced under a conventional evolutionary or naturalistic framework may supply observations and measurements without importing that framework's chronology, ancestry reconstruction, methodological-naturalist restriction, or priors as PDP commitments. Conversely, PDP may not dismiss an observation merely because it was produced within that framework.
+
+**Rule 4 (ancillary-hypothesis freedom and discipline).** PDP may propose novel ancillary hypotheses when a specified explanatory deficit warrants them. Each must be registered with an explanatory target, assumptions, mechanism, expected consequences, possible discriminators or failure conditions, dependencies, and status. An ancillary may not be presented as observation, used silently as a rescue device, or allowed to alter the hard core under the label of an ordinary auxiliary. Competing conventional auxiliaries receive the same bookkeeping discipline.
+
+The operating sequence is: observation -> constraint -> explanatory deficit -> ancillary hypothesis -> consequences -> test/appraisal -> retain, revise, or reject.
+
 ## 5. Research streams
 
 - **PDP-01 Programme formalization.** Convert the seed specification into the
@@ -146,6 +152,7 @@ Promotion criteria live in `epistemic-status.md`. The ladder prevents
 
 ## Revision log
 
+- 2026-10-03: Added Rule 3 observation/model firewall and Rule 4 ancillary-hypothesis discipline.
 - 2026-10-03: Corrected dependency semantics: Christian Designism carries the historical Flood commitment; GFH is a sibling geological mechanism.
 - 2026-10-03: Charter established from the seed boundary specification
   (post-flood-diversity-programme.md). Status PDP-0.
