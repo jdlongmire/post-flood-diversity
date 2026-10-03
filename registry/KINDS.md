@@ -29,6 +29,24 @@ Each assessed candidate records: candidate partition; morphology; reproductive c
 
 Enumeration is an active PDP-02 deliverable. Family-level candidates are not presumed to be the correct kind boundary; they provide a reproducible intermediate partition against which broader and narrower hypotheses can be tested.
 
+
+## Assessed candidate: Canidae (PDP-TAX-001)
+
+Dossier: `4-models/kind-registry/PDP-TAX-001-canidae.md`
+
+| Candidate | Partition | Classification | Downstream disposition |
+|---|---|---|---|
+| CAN-H-BP | Mammalian body plan | STRAINED | separate PDP-03/PDP-04 severe burden |
+| CAN-H-O | Carnivora | STRAINED | separate PDP-03/PDP-04 burden |
+| CAN-H-F | Canidae | COMPATIBLE | advance to founder-genome feasibility |
+| CAN-H-C | Canis/wolf-like cluster | COMPATIBLE within cluster; incomplete for family | implies additional canid founder units if adopted |
+
+No row is a declaration of the historical Ark kind. Compatibility means the current evidence set does not violate a stated PDP constraint.
+
+## Family-level enumeration baseline
+
+PDP-02 freezes the American Society of Mammalogists Mammal Diversity Database v2.5 (2026-07-28) as its first-pass mammalian taxonomy baseline: 27 orders and 169 families. See `4-models/kind-registry/mammalian-family-inventory.md`. Aquatic and recently extinct scope fields must be applied before the complete family list is treated as an Ark-stock candidate list.
+
 ## Invertebrates
 
 Arthropod, snail, worm layouts: separate short list, included only if
