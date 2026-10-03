@@ -1,0 +1,72 @@
+id: PDP-03
+title: Founder Genome Feasibility
+status: active
+disposition: open
+opened: 2026-10-03
+stream: founder-genome-feasibility
+
+objective: >
+  Quantify what a stipulated founder stock can carry and what observed descendant
+  genomic features therefore require recombination, regulation, structural change,
+  post-founder mutation, or remain unexplained. CAN-H-F (Canidae-level founder) is
+  the first reference case.
+
+scope:
+  includes:
+    - four-copy autosomal founder constraint
+    - standing heterozygosity
+    - allele-count burden
+    - regulatory variants
+    - structural variants
+    - karyotypic change
+    - lineage-specific sequence and gene-content burden
+    - observed introgression where it changes burden accounting
+    - explicit uncertainty and residuals
+  excludes:
+    - importing conventional divergence times as PDP chronology
+    - assuming universal common descent
+    - assuming every inferred ancestral state is an observation
+    - full diversification-rate simulation assigned to PDP-04
+    - changing founder-stock size without programme-revision treatment
+
+authority_boundary:
+  may_proceed:
+    - collect measured genomic quantities from primary literature and databases
+    - separate observations from model-dependent inferences
+    - construct burden equations and sensitivity analyses
+    - propose AH-### ancillary hypotheses when a quantified deficit warrants one
+    - reject or revise an ancillary when consequences fail
+  does_not_authorize:
+    - altering the hard core
+    - silently changing the four-copy constraint
+    - treating naturalistic auxiliaries as observations
+    - treating a PDP ancillary as established merely because it closes a deficit
+
+deliverables:
+  - 4-models/population/founder-genome-feasibility-framework.md
+  - 4-models/population/CAN-H-F-genomic-burden-ledger.md
+  - quantitative notebooks/scripts as parameters become sourced
+  - AH entries where warranted
+  - PDP-03 appraisal and handoff to PDP-04
+
+verification:
+  - every numerical parameter has a source or is explicitly marked scenario-only
+  - every empirical input is tagged OBS, INF, AUX, or PDP
+  - no fifth founder allele appears without post-founder mutation or programme revision
+  - residual unexplained burden is reported rather than forced to zero
+  - sensitivity results are reproducible before PDP-2 promotion
+
+registry_claims:
+  - HC-1
+belt_auxiliaries:
+  - A-02a
+  - A-02b
+  - A-02c
+  - A-02d
+  - A-02g
+  - A-02h
+epistemic_note: >
+  Feasibility is conditional on the assumed kind boundary and founder stock.
+  A successful calculation does not demonstrate the Flood history. A failed
+  calculation counts against that boundary/auxiliary configuration and must not
+  be repaired silently.
