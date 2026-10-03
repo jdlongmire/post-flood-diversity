@@ -17,6 +17,8 @@ is assumed. Deliverable: `registry/KINDS.md` with resolved or explicitly
 competing boundaries.
 
 ### PDP-03 Founder Genome Feasibility
+**Status: active (2026-10-03).** Reference case: CAN-H-F. Framework: `4-models/population/founder-genome-feasibility-framework.md`; burden ledger: `4-models/population/CAN-H-F-genomic-burden-ledger.md`.
+
 Quantify what a founder pair can actually encode and transmit, under the
 standing constraint that an autosomal locus permits at most four founder
 copies. Probably the critical technical stream. Deliverable: quantified
