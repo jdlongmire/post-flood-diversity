@@ -1,0 +1,42 @@
+id: PDP-01
+title: Programme formalization
+status: completed
+scope: >
+  Convert the seed boundary specification into the formal charter, hard core,
+  heuristics, auxiliary register, terminology, and traceability structure:
+  this repository.
+
+  Does NOT include: any stream's substantive research (PDP-02..06), predictions,
+  or worked taxa.
+authority_boundary: >
+  May create the full repo structure and seed all files from the seed
+  specification. Does NOT authorize changing any hard-core commitment or
+  moving belt items into the core.
+actions:
+  - Create jdlongmire/post-flood-diversity from the repo template
+  - Build the specified tree: 0-programme through traceability
+  - Seed charter, hard core, heuristics, scope, epistemic status, roadmap, terminology
+  - Seed boundary, theory, evidence, registry, and traceability files
+  - Verify no em dashes (mechanical Python scan) and internal link consistency
+verification: >
+  Repo tree matches the specified structure; every file present; Python scan
+  confirms zero non-ASCII em dashes; README renders the programme relationship,
+  ladder, rules, streams, and taxa.
+disposition: closed
+registry_claims:
+  - HC-1
+  - HC-2
+  - HC-3
+  - HC-4
+  - HC-5
+  - MC-1
+  - MC-2
+belt_auxiliaries: []
+epistemic_note: >
+  Delivers PDP-1 formalization. Changes nothing substantive; the programme stays
+  at PDP-0 until the streams produce quantified work.
+
+completed: 2026-10-03
+completion_note: Repo created from longmire-repo-template and seeded in one commit (77325ffc):
+  full PDP tree, charter through traceability, six stream packages in backlog.
+  Em-dash scan clean (mechanical Python scan); template scaffold replaced per spec.
