@@ -1,0 +1,51 @@
+id: PDP-02-03-BRIDGE-001
+title: Canidae Predecessor Method Reproduction
+status: active
+disposition: open
+opened: 2026-10-03
+interfaces: [PDP-02, PDP-03, PDP-03-001]
+
+objective: >
+  Reproduce and update the strongest identified predecessor Canidae/baraminology
+  analyses against modern genomic resources before executing PDP-03-001, so the
+  new founder-burden experiment is explicitly cumulative rather than parallel.
+
+methods:
+  - LIGHTNER-2009: re-evaluate Canidae-level karyotypic/allelic burden with current data
+  - GCM: reproduce gene-content similarity/clustering using current proteomes
+  - WGKS: reproduce whole-genome k-mer signature clustering using current assemblies
+
+scope:
+  includes:
+    - source-method reconstruction from primary papers
+    - modern Canidae input manifest
+    - reproducible code/scripts where data licensing permits
+    - sensitivity to species/sample composition
+    - agreement/disagreement matrix across methods
+    - OBS/INF/AUX/PDP tagging
+    - explicit comparison with CAN-H-BP, CAN-H-O, CAN-H-F, CAN-H-C
+  excludes:
+    - treating any clustering output as a kind declaration
+    - importing molecular-clock chronology
+    - assuming a cluster proves common ancestry or created-kind identity
+    - modifying PDP-03-001 endpoints after observing its results
+
+deliverables:
+  - 6-analysis/predecessor-methods/README.md
+  - 6-analysis/predecessor-methods/lightner-2009-reproduction.md
+  - 6-analysis/predecessor-methods/gcm-protocol.md
+  - 6-analysis/predecessor-methods/wgks-protocol.md
+  - 6-analysis/predecessor-methods/method-comparison-matrix.md
+  - source/data manifest
+  - reproducible scripts/results when executed
+
+verification: >
+  Each reproduced method must distinguish its raw measurement from its original
+  baraminological interpretation; current inputs must be versioned; method
+  parameters must be fixed before comparing boundary outcomes; discrepancies
+  among methods must remain visible.
+
+epistemic_note: >
+  Similarity/clustering is evidence structure. It is not by itself a historical
+  kind boundary. Reproduction can validate a calculation without validating the
+  original historical interpretation.
