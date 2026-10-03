@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite the programme paper below."
+title: "Post-Flood Diversity Programme"
+subtitle: "A quantitative research programme for post-Flood biological diversification"
+abstract: >-
+  A Lakatosian research programme investigating whether a small preserved
+  post-Flood breeding stock can account for observed terrestrial biological
+  diversity within specified chronology, genetic constraints, ecological
+  processes, and Ark boundary conditions. Current status is a boundary
+  specification, not a tested explanation.
+type: software
+authors:
+  - family-names: Longmire
+    given-names: James D.
+    orcid: "https://orcid.org/0009-0009-1383-7698"
+    email: jdlongmire@outlook.com
+version: "0.1.0"
+date-released: "2026-10-03"
+url: "https://github.com/jdlongmire/post-flood-diversity"
+license: [Apache-2.0, CC-BY-4.0]
+keywords:
+  - post-flood biology
+  - population genetics
+  - diversification
+  - research programme
+  - lakatosian

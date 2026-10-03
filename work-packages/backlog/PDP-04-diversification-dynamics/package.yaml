@@ -1,0 +1,35 @@
+id: PDP-04
+title: Diversification Dynamics
+status: proposed
+scope: >
+  Model recombination, selection, regulatory change, isolation, chromosomal
+  rearrangement, mutation, and speciation against the stipulated time window
+  (BC-1). Deliverable: quantified rate models in 4-models/diversification/,
+  with rate bounds from 2-theory/diversification/rate-models.md.
+
+  Does NOT include: applying the models to specific taxa (PDP-06).
+authority_boundary: >
+  May build and run diversification models in 6-analysis/. Does NOT authorize
+  treating rate bounds as demonstrations of the history (MC-1); model claims
+  stay in 4-models/, separate from 3-evidence/.
+actions:
+  - Formalize each diversification mechanism as a rate model inside the window
+  - Establish rate ceilings from the observed cases (O-01..O-04)
+  - Identify which required unpackings exceed the ceilings, if any
+verification: >
+  Rate models with stated assumptions; ceiling-vs-requirement comparison
+  published; results reproducible.
+disposition: open
+registry_claims:
+  - BC-1
+  - MC-1
+belt_auxiliaries:
+  - A-02c
+  - A-02d
+  - A-02e
+  - A-02f
+  - A-02g
+  - A-02h
+epistemic_note: >
+  Rate models establish possibility and bounds. Applying them to Ark founder
+  populations is a model claim, not an evidence claim.

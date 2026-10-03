@@ -1,0 +1,24 @@
+# Sources
+
+Programme-level sources. Per the standing source-attribution rule: name the
+source and link the original; never quote a finding without saying where it
+came from.
+
+## Seed
+
+post-flood-diversity-programme.md:
+  role: seed boundary specification for this repository
+  date: 2026-10-03
+  status: boundary specification, not a tested explanation
+  note: converted into 0-programme/, 1-boundary/, 2-theory/, 3-evidence/, registry/ at chartering
+
+## Upstream programme sources
+
+global-flood-hydrotectonic-model:
+  repo: jdlongmire/global-flood-hydrotectonic-model
+  role: upstream historical commitment (HC-1); geological mechanism source
+
+## To be added
+
+- Literature entries as streams PDP-02..06 gather sources (see 3-evidence/literature/).
+- Per-observation citations in 3-evidence/observed-diversification/ as cases are documented.

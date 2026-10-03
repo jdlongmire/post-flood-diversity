@@ -1,0 +1,30 @@
+id: PDP-<STREAM>-NNNN
+title: <short name>
+status: proposed
+# commitment: committed | stretch   # optional; see README
+scope: >
+  What this package covers.
+
+  And explicitly what it does NOT - the out-of-scope half is what stops a package
+  from quietly growing while it is being executed.
+authority_boundary: >
+  What may proceed without re-asking, stated positively.
+
+  Then what it does NOT authorize, stated as explicitly. If the package could touch a
+  commitment, an external publication, or a verdict, name that edge here.
+actions:
+  - First planned action
+  - Second planned action
+verification: >
+  How "done" is proven. Prefer a check that can fail — a machine check, a diff, a
+  re-run — over a statement that the work was completed.
+disposition: open
+registry_claims:
+  # Claim IDs from registry/CLAIMS.md this package relies on or advances.
+  - HC-1
+belt_auxiliaries:
+  # Auxiliary IDs from registry/AUXILIARIES.md this package invokes.
+  - A-02a
+epistemic_note: >
+  What this package may and may not conclude, given the programme's PDP-0 status.
+  Charter Rule 1 applies: rate bounds, not demonstrations of the history.

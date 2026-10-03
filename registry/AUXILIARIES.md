@@ -1,0 +1,49 @@
+# Auxiliaries Register
+
+Protective-belt auxiliaries: adjustable without touching the core. Edited in
+place; never moved into the core unless the commitment itself changes.
+
+## A-01 Kind width
+
+- **A-01a Body-plan cut.** Few origins, more unpacking per origin.
+- **A-01b Family-level cut.** Hundreds to a few thousand origins, less
+  unpacking per origin. The usual flood-model alternative.
+- Status: competing hypotheses (PDP-02 adjudicates). See
+  `1-boundary/kind-boundary.md`, `registry/KINDS.md`.
+
+## A-02 Genetic route
+
+- **A-02a Standing variation.** Heterozygous founder stocks; later
+  within-plan variety largely unpacks what the founders carried.
+- **A-02b Allele cap.** At most four copies per autosomal locus per pair;
+  descendants have those alleles plus later mutation. Recombination does not
+  invent a fifth allele. (Boundary-adjacent: changing it is a programme
+  revision per MC-2.)
+- **A-02c Polygenic recombination** of carried alleles.
+- **A-02d Regulatory variation.**
+- **A-02e Selection** in emptied habitats.
+- **A-02f Isolation** as the animals spread.
+- **A-02g Chromosomal rearrangement.**
+- **A-02h Mutation** added inside the time boundary.
+- Dropped necessity: the pair need not have carried a distinct allele for
+  every later breed or species.
+- See `2-theory/genetics/`, `2-theory/diversification/`.
+
+## A-03 Hull logistics
+
+- **A-03a** Young, small representatives of each kind.
+- **A-03b** Dense shared feed rather than exclusive fresh diets.
+- **A-03c** Dormancy or torpor where the kind can sustain it. Extending
+  torpor to kinds that cannot is a larger grant (OP-05).
+- **A-03d** Fodder interval counted at maintenance, not full growth, for the
+  voyage duration actually used.
+- **A-03e** Waste as bedding; water as stored water plus rain.
+- **A-03f** Aquatic animals excluded by the text. Insects or other groups
+  carried with fodder only if the core's preserved stock is not required
+  for them.
+- See `2-theory/ark-interface/`.
+
+## Revision log
+
+- 2026-10-03: Register seeded from the boundary specification (sections
+  4.1-4.3).

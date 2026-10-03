@@ -1,64 +1,128 @@
-# longmire-repo-template
+# Post-Flood Diversity Programme (PDP)
 
-A new personal aide starts with thinx's current **Meta-Harness** structure:
+**Subtitle:** A quantitative research programme for post-Flood biological diversification
 
-```text
-00-meta-model/          work model, architecture, repo decisions and profiles
-01-strategic-baseline/  vision, strategy, objectives, alignment
-02-systems-baseline/    requirements, architecture, behavior, interfaces, verification
-03-solutions-baseline/  released solution descriptions
-04-work-packages/       bounded delivery records
-05-mxm-construct/
-  meta-harness/        Mission, Mind, Morals, Memory/Methods pointers, profile
-  memory/              durable notes, wiki, current session focus
-  means/               canonical README and executable scripts/tests
-06-operations/         capability inventory, onboarding and recovery
-AGENTS.md              cross-harness adapter with explicit Codex loading
-CLAUDE.md              imports AGENTS.md
-MXM.md                 canonical framework declaration
-MEMORY.md              operational memory index
-README.md              human entry point
+**Status:** PDP-0: boundary specification, not a tested explanation.
+
+**Repository:** jdlongmire/post-flood-diversity
+**Working abbreviation:** PDP
+
+## Purpose
+
+Develop and test whether a small preserved post-Flood breeding stock can account for observed terrestrial biological diversity within the programme's specified chronology, genetic constraints, ecological processes, and Ark boundary conditions.
+
+## Programme relationship
+
+PDP is the repository of record for the genetics/post-Flood biological line in Christian Designism.
+
+```
+Christian Designism
+|
+|-- Creation / Cosmology
+|   `-- creation-cosmology-programmes
+|
+|-- Flood Geology
+|   `-- global-flood-hydrotectonic-model   <- upstream historical commitment
+|
+`-- Post-Flood Biology
+    `-- post-flood-diversity                <- this repo
+        |-- preserved stock
+        |-- kind boundaries
+        |-- population genetics
+        |-- diversification
+        |-- biogeography
+        `-- Ark biological/logistics interface
 ```
 
-.gitignore and optional .github/.claude adapter folders are also allowed.
-There are no separate root decisions/, profiles/, flat MxM files or 04-construct/.
-The template deliberately ships a real Meta-Harness profile. The previous
-General Work default is superseded by [ADR-LAYOUT-0002](00-meta-model/ADR-LAYOUT-0002-thinx-root-parity.md).
+PDP consumes the global Flood as an upstream historical commitment from
+`jdlongmire/global-flood-hydrotectonic-model`. It does not duplicate the
+geological mechanism. See `traceability/dependencies.yaml`.
 
-## Create an aide
+## Hard core
 
-Use GitHub's template action or your authenticated CLI:
+The five commitments, held essentially unchanged and not offered for ordinary
+refutation:
 
-```text
-gh repo create OWNER/NAME --private --template jdlongmire/longmire-repo-template --clone
-cd NAME
-python 00-meta-model/verify-repository-layout.py
-python 05-mxm-construct/means/scripts/session-start.py
-```
+1. A global Flood catastrophe occurred.
+2. It bottlenecked air-breathing land animals and birds to a preserved breeding stock.
+3. The preserved stock was genetically sound.
+4. The stock possessed substantial latent biological potential within its respective body plans.
+5. The preserved units were kinds rather than subsequent Linnaean species.
 
-Requires Python 3.10+ and Git; use python3 where appropriate. No third-party
-Python packages. The template contains no principal identity, personal memory,
-credentials, live services or inherited account permissions.
+Full statement and heuristics: `0-programme/hard-core.md`, `0-programme/heuristics.md`.
 
-Before operational use, set aide_name, principal_operator and repository_owner
-in [profile.json](05-mxm-construct/meta-harness/profile.json) from confirmed
-human instructions. Replace the generic personal-aide profile label in MXM.md
-and record the decision. Customize Mission and priorities; keep unknowns explicit.
-Then follow [onboarding](06-operations/runbooks/ONBOARDING.md).
-UNCONFIGURED means no operator authority has been established.
+## Repository map
 
-## Validate and maintain
+- `0-programme/` - charter, hard core, heuristics, scope, epistemic status, roadmap, terminology
+- `1-boundary/` - chronology, Ark hull, preserved stock, maturity, kind boundary, body-plan candidates
+- `2-theory/` - genetics, diversification, ecology, Ark interface
+- `3-evidence/` - observed diversification (rate examples and empirical bounds; belt resources, not proof)
+- `4-models/` - kind registry, taxa, population, diversification, Ark loading models
+- `5-predictions/` - predictions, discriminators, severe tests, appraisal
+- `6-analysis/` - notebooks, datasets, scripts, results
+- `7-papers/` - programme papers, technical papers, figures
+- `registry/` - CLAIMS, AUXILIARIES, PREDICTIONS, FALSIFIERS, OBSERVATIONS, KINDS, OPEN-PROBLEMS
+- `work-packages/` - PDP-01..06 streams and taxon packages (active, backlog, completed)
+- `traceability/` - claims, dependencies, sources as YAML
 
-```text
-python -m unittest discover -s 00-meta-model -p 'test_*.py'
-python -m unittest discover -s 05-mxm-construct/means/scripts/tests
-python 05-mxm-construct/means/scripts/session-wrap.py
-```
+## Maturity ladder
 
-The layout gate rejects unexpected roots, missing baselines, shadow contracts
-and broken adapter chains. The session gate invokes it; wrap also requires a
-clean Git tree. These are explicit checks, not installed tool hooks or CI.
-Tests establish local code behavior; validate actual instruction loading in a
-fresh session on the target harness. No full thinx console or service is bundled.
+- **PDP-0** Boundary specification (current state)
+- **PDP-1** Formal research programme
+- **PDP-2** Quantified feasibility model
+- **PDP-3** Successful worked kinds
+- **PDP-4** Cross-kind explanatory model
+- **PDP-5** Differential predictions
+- **PDP-6** Empirically tested programme
 
-Human-Curated, AI-Enabled (HCAE)
+The ladder keeps "internally possible" from quietly becoming "demonstrated."
+Current appraisal: `5-predictions/appraisal.md`.
+
+## Governing methodological rules
+
+Canonized in `0-programme/charter.md`:
+
+1. PDP may use observed rapid diversification to establish biological possibility
+   or empirical rate bounds. It may not treat such observations as demonstrations
+   that the proposed post-Flood history occurred. Historical reconstruction and
+   mechanism are separate claims and must be registered separately.
+2. An auxiliary that resolves one difficulty by changing the stipulated founder
+   population, chronology, or hard-core historical event must be classified as a
+   programme revision rather than an ordinary protective-belt adjustment.
+
+## Research streams
+
+- **PDP-01** Programme formalization: convert the seed specification into charter,
+  hard core, heuristics, auxiliary register, terminology, and traceability.
+- **PDP-02** Kind Boundary Project: defensible candidate boundaries from morphology,
+  reproductive compatibility, comparative genomics, developmental architecture, and
+  phylogenetic structure. Body-plan and family-level hypotheses compete; neither
+  is assumed.
+- **PDP-03** Founder Genome Feasibility: quantify what a founder pair can encode and
+  transmit under the four-copy autosomal constraint.
+- **PDP-04** Diversification Dynamics: model recombination, selection, regulatory
+  change, isolation, chromosomal rearrangement, mutation, and speciation against the
+  stipulated time window.
+- **PDP-05** Ark Biological Boundary: population, maturity, survivability, and
+  logistics constraints, interfaced with (not conflated with) Flood geology.
+- **PDP-06** Kind-by-Kind Demonstration: the programme's decisive work product,
+  from founder stock through standing variation, recombination and selection,
+  isolation and dispersal, to observed descendant diversity.
+
+## First taxa (progressively harder cases)
+
+- **PDP-TAX-001** Canidae (calibration: substantial observed morphological
+  diversity without a new body plan)
+- **PDP-TAX-002** Bovidae
+- **PDP-TAX-003** Equidae
+- **PDP-TAX-004** Ursidae
+- **PDP-TAX-005** Felidae
+- **PDP-TAX-006** Muridae
+- **PDP-TAX-007** Chiroptera (severe test: deriving bats from a mammalian founder
+  is far harder than deriving dog breeds from a canid-like stock)
+- **PDP-TAX-008** Aves test cluster
+
+## License and citation
+
+Code: Apache-2.0 (`LICENSE-Apache-2.0.txt`). Prose and figures: CC-BY-4.0
+(`LICENSE-CC-BY-4.0.txt`). Cite via `CITATION.cff`.

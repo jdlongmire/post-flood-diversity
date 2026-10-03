@@ -1,0 +1,50 @@
+id: PDP-06
+title: Kind-by-Kind Demonstration
+status: proposed
+scope: >
+  The programme's decisive work product. For each taxon in the gradient
+  (PDP-TAX-001 Canidae through PDP-TAX-008 Aves test cluster), carry the full
+  pipeline: founder stock -> founder genomic state -> standing variation plus
+  post-Flood mutation -> recombination + selection -> isolation / dispersal ->
+  population differentiation -> reproductive isolation where applicable ->
+  observed descendant diversity.
+
+  Start with PDP-TAX-001 (calibration). Bats (PDP-TAX-007) considerably later,
+  with pre-registered success criteria (severe test 1).
+
+  Does NOT include: changing the founder population, chronology, or hard-core
+  event to make a taxon work; per MC-2 that is a programme revision, and a
+  taxon that needs one is a failure of the programme as specified, to be
+  recorded as such.
+authority_boundary: >
+  May build taxon models in 4-models/taxa/ and run analyses in 6-analysis/.
+  Does NOT authorize declaring success on a moved goalpost; success criteria
+  are pre-registered per taxon.
+actions:
+  - Pre-register success criteria per taxon (starting with PDP-TAX-001)
+  - Work PDP-TAX-001 end to end: founder assumptions, auxiliaries invoked (registry IDs), descendants
+  - Proceed up the gradient; attempt PDP-TAX-007 as a severe test
+verification: >
+  Worked taxon with all pipeline stages, cited claim IDs, and pre-registered
+  criteria met; results reproducible.
+disposition: open
+registry_claims:
+  - HC-2
+  - HC-3
+  - HC-4
+  - HC-5
+  - MC-1
+  - MC-2
+belt_auxiliaries:
+  - A-01a
+  - A-01b
+  - A-02a
+  - A-02c
+  - A-02d
+  - A-02e
+  - A-02f
+  - A-02g
+  - A-02h
+epistemic_note: >
+  This is the missing analysis the seed specification names as the current
+  explanatory deficit (OP-01). Until it exists, the programme stays at PDP-0.

@@ -1,0 +1,51 @@
+# Claims Traceability
+
+Maps claim IDs to the files that state, use, or test them.
+
+## Hard-core claims
+
+HC-1:
+  stated_in: [0-programme/hard-core.md, 0-programme/charter.md]
+  upstream: jdlongmire/global-flood-hydrotectonic-model
+HC-2:
+  stated_in: [0-programme/hard-core.md, 1-boundary/preserved-stock.md]
+HC-3:
+  stated_in: [0-programme/hard-core.md, 1-boundary/preserved-stock.md]
+HC-4:
+  stated_in: [0-programme/hard-core.md, 1-boundary/preserved-stock.md, 2-theory/genetics/standing-variation.md]
+HC-5:
+  stated_in: [0-programme/hard-core.md, 1-boundary/kind-boundary.md]
+
+## Boundary claims
+
+BC-1:
+  stated_in: [1-boundary/chronology.md]
+BC-2:
+  stated_in: [1-boundary/ark-boundary.md]
+BC-3:
+  stated_in: [1-boundary/ark-boundary.md, 2-theory/ark-interface/population-size.md]
+BC-4:
+  stated_in: [1-boundary/maturity.md, 2-theory/ark-interface/juvenile-stock.md]
+BC-5:
+  stated_in: [1-boundary/kind-boundary.md, registry/KINDS.md]
+BC-6:
+  stated_in: [1-boundary/preserved-stock.md, 2-theory/genetics/allele-constraints.md]
+
+## Methodological claims
+
+MC-1:
+  stated_in: [0-programme/charter.md, 0-programme/heuristics.md, 0-programme/epistemic-status.md]
+  enforced_in: [3-evidence/observed-diversification/dogs.md, 3-evidence/observed-diversification/livestock.md, 3-evidence/observed-diversification/madeira-mice.md, 3-evidence/observed-diversification/darwin-finches.md, 2-theory/diversification/rate-models.md]
+MC-2:
+  stated_in: [0-programme/charter.md, 0-programme/heuristics.md]
+  enforced_in: [2-theory/genetics/allele-constraints.md, 4-models/taxa/README.md, 4-models/population/README.md]
+
+## Open problems
+
+OP-01: [registry/OPEN-PROBLEMS.md, 0-programme/epistemic-status.md, 4-models/taxa/README.md]
+OP-02: [registry/OPEN-PROBLEMS.md, 2-theory/genetics/allele-constraints.md, 4-models/population/README.md]
+OP-03: [registry/OPEN-PROBLEMS.md, 0-programme/roadmap.md, 5-predictions/severe-tests.md]
+OP-04: [registry/OPEN-PROBLEMS.md, 1-boundary/body-plan-candidates.md, 0-programme/scope.md]
+OP-05: [registry/OPEN-PROBLEMS.md, 1-boundary/maturity.md, 2-theory/ark-interface/feed.md]
+OP-06: [registry/OPEN-PROBLEMS.md, 0-programme/scope.md]
+OP-07: [registry/OPEN-PROBLEMS.md, registry/KINDS.md, 1-boundary/kind-boundary.md]

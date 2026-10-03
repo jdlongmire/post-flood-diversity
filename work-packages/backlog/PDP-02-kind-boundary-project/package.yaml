@@ -1,0 +1,32 @@
+id: PDP-02
+title: Kind Boundary Project
+status: proposed
+scope: >
+  Determine defensible candidate kind boundaries using morphology, reproductive
+  compatibility, comparative genomics, developmental architecture, and
+  phylogenetic structure. Body-plan and family-level hypotheses compete;
+  neither is assumed. Enumerate family-level candidates with the same
+  evidentiary fields as the body-plan list (OP-07).
+
+  Does NOT include: founder genome quantification (PDP-03) or worked taxa (PDP-06).
+authority_boundary: >
+  May gather and register comparative evidence and maintain registry/KINDS.md
+  with competing hypotheses. Does NOT authorize resolving the competition by
+  assumption or moving kind width into the hard core.
+actions:
+  - Enumerate family-level kind candidates with full evidentiary fields
+  - Score body-plan vs family-level hypotheses per evidence type
+  - Maintain registry/KINDS.md and 4-models/kind-registry/ records
+verification: >
+  registry/KINDS.md holds both hypotheses with comparable evidence; open
+  problems OP-07 closed or explicitly carried.
+disposition: open
+registry_claims:
+  - HC-5
+  - BC-5
+belt_auxiliaries:
+  - A-01a
+  - A-01b
+epistemic_note: >
+  Boundary determination is comparative and provisional. Competing hypotheses
+  stay open until evidence adjudicates.

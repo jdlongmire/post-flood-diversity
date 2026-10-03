@@ -1,0 +1,37 @@
+id: PDP-03
+title: Founder Genome Feasibility
+status: proposed
+scope: >
+  Quantify what a founder pair can actually encode and transmit under the
+  standing constraint that an autosomal locus permits at most four founder
+  copies (BC-6). Probably the critical technical stream. Deliverable: a
+  quantified feasibility model in 4-models/population/.
+
+  Does NOT include: diversification rate modeling (PDP-04) or worked taxa (PDP-06).
+authority_boundary: >
+  May build population-genetic models and run analyses in 6-analysis/.
+  Does NOT authorize enriching the founder stock beyond the four-copy
+  constraint; per MC-2 that would be a programme revision, and must be
+  flagged, not smuggled in.
+actions:
+  - Formalize the founder genomic state under BC-6
+  - Model heterozygosity retention and allele transmission across the bottleneck
+  - Quantify the gap (if any) between encodable variation and required descendant diversity
+  - Publish model to 4-models/population/ with results in 6-analysis/results/
+verification: >
+  Quantified model with stated assumptions; shortfall (if any) named explicitly;
+  results reproducible from 6-analysis/scripts/.
+disposition: open
+registry_claims:
+  - HC-3
+  - HC-4
+  - BC-6
+belt_auxiliaries:
+  - A-02a
+  - A-02b
+  - A-02c
+  - A-02d
+  - A-02h
+epistemic_note: >
+  A clean failure with the shortfall named is a result, not a defeat: it feeds
+  F-C1 and the appraisal. Do not close a gap by revising the stock silently.

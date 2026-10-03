@@ -1,0 +1,38 @@
+id: PDP-05
+title: Ark Biological Boundary
+status: proposed
+scope: >
+  Establish population, maturity, survivability, and logistics constraints:
+  kind counts under each kind-width hypothesis against the hull (BC-2, BC-3),
+  juvenile embarkation (BC-4), feed/water/waste logistics (A-03). Interfaced
+  with, not conflated with, Flood geology.
+
+  Does NOT include: geological mechanism (upstream) or worked taxa (PDP-06).
+authority_boundary: >
+  May build loading and logistics models in 4-models/ark-loading/. Does NOT
+  authorize extending torpor to kinds that cannot sustain it without
+  registering the larger grant (OP-05), or changing the hull boundary to fit
+  a kind count.
+actions:
+  - Model kind counts vs hull under body-plan and family-level hypotheses
+  - Quantify feed/water/waste provisioning for the voyage
+  - State the torpor grant explicitly per kind (OP-05)
+  - Resolve or carry OP-06 (aquatic/insect carriage rule)
+verification: >
+  Loading models fit the hull under stated hypotheses; grants named;
+  OP-05/OP-06 resolved or explicitly carried.
+disposition: open
+registry_claims:
+  - BC-2
+  - BC-3
+  - BC-4
+belt_auxiliaries:
+  - A-03a
+  - A-03b
+  - A-03c
+  - A-03d
+  - A-03e
+  - A-03f
+epistemic_note: >
+  Logistics constrains which hypotheses are jointly viable; it does not prove
+  any of them.
