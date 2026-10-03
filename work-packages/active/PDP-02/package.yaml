@@ -1,0 +1,70 @@
+id: PDP-02
+title: Kind Boundary Project
+status: active
+disposition: open
+opened: 2026-10-03
+stream: kind-boundary
+
+objective: >
+  Enumerate and evaluate competing operational kind boundaries without assuming
+  that kind corresponds to a predetermined taxonomic rank, and expose the
+  genetic and diversification burden each surviving boundary passes downstream.
+
+scope:
+  includes:
+    - body-plan, order-level, family-level, and narrower cluster hypotheses
+    - morphology
+    - reproductive compatibility and introgression
+    - comparative genomics
+    - developmental architecture
+    - phylogenetic structure
+    - family-level candidate enumeration
+    - initial taxon dossiers PDP-TAX-001 through PDP-TAX-008
+  excludes:
+    - proving the global Flood
+    - choosing GFH as the Flood mechanism
+    - treating conventional divergence dates as PDP chronology
+    - founder-genome feasibility calculations assigned to PDP-03
+    - diversification simulations assigned to PDP-04
+
+authority_boundary:
+  may_proceed:
+    - collect and classify evidence
+    - enumerate competing boundaries
+    - mark candidates compatible, strained, incompatible, or unresolved
+    - update KINDS registry and traceability
+    - expose downstream burdens
+  requires_programme_revision:
+    - change to the five-item hard core
+    - change to the stipulated chronology
+    - change to the founder-stock rule
+  epistemic_rule: >
+    A compatible boundary is not a demonstrated historical kind. Preserve
+    unresolved alternatives and contrary evidence.
+
+deliverables:
+  - 1-boundary/kind-boundary-decision-framework.md
+  - registry/KINDS.md
+  - 4-models/kind-registry/ candidate dossiers
+  - traceability updates
+  - downstream burden handoff to PDP-03 and PDP-04
+
+actions:
+  - enumerate family-level candidates
+  - build Canidae calibration dossier
+  - populate all five evidence dimensions
+  - classify competing Canidae partitions
+  - repeat across the taxon gradient
+  - identify severe-test boundaries
+  - publish PDP-02 first-pass appraisal
+
+verification:
+  - every scoped candidate has a dossier or explicit evidence-gap record
+  - every classification names supporting evidence and contrary evidence
+  - every surviving boundary exposes its PDP-03 and PDP-04 burden
+  - no conventional divergence date is silently used as programme chronology
+  - no evidence example is promoted from possibility/rate bound to historical proof
+
+next_handoff:
+  stream: PDP-03
+  condition: first-pass candidate boundaries and burden fields available
