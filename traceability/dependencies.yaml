@@ -1,25 +1,25 @@
 # Dependencies
 
-Upstream and sibling relationships. PDP consumes; it does not duplicate.
+Upstream, sibling, and interface relationships. PDP consumes commitments and interfaces; it does not duplicate sibling mechanisms.
 
 ## Upstream
 
-global-flood-hydrotectonic-model:
-  repo: jdlongmire/global-flood-hydrotectonic-model
-  relation: consumes the global Flood as a historical commitment (HC-1)
-  boundary: geological mechanism lives upstream; PDP does not duplicate it
-  interface_files: [1-boundary/ark-boundary.md, 2-theory/ark-interface/population-size.md, 2-theory/ecology/dispersal.md]
-
-## Umbrella
-
 christian-designism:
-  relation: PDP is the repository of record for the genetics/post-Flood biological line
+  repo: jdlongmire/christian-designism
+  relation: programme umbrella and source of the global-Flood historical commitment (HC-1); PDP is the repository of record for the genetics/post-Flood biological line
+  boundary: PDP tests biological consequences downstream of HC-1 without making any particular Flood-geology mechanism part of its hard core
   programme_tree:
     - Creation / Cosmology: jdlongmire/creation-cosmology-programmes
     - Flood Geology: jdlongmire/global-flood-hydrotectonic-model
     - Post-Flood Biology: jdlongmire/post-flood-diversity
 
-## Sibling
+## Sibling interfaces
+
+global-flood-hydrotectonic-model:
+  repo: jdlongmire/global-flood-hydrotectonic-model
+  relation: sibling mechanistic model for Flood geology; not the epistemic source of HC-1
+  boundary: PDP may consume geological outputs as conditional interface inputs, but GFH revision or falsification does not by itself remove PDP's historical Flood commitment
+  interface_files: [1-boundary/ark-boundary.md, 2-theory/ark-interface/population-size.md, 2-theory/ecology/dispersal.md]
 
 creation-cosmology-programmes:
   repo: jdlongmire/creation-cosmology-programmes
