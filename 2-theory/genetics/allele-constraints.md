@@ -31,3 +31,10 @@ merely adjusting an auxiliary.
 - `2-theory/genetics/mutation.md` - the only source of genuinely new alleles
   after the bottleneck.
 - `registry/AUXILIARIES.md` - A-02b.
+
+
+## PDP-03 operationalization
+
+PDP-03 expresses the constraint locus-wise as `A_obs(l) <= A_F(l) + A_M(l,t)`, with `A_F(l) <= 4`. Recombination changes multilocus combinations but is not counted as a source of additional allelic states at the locus. See `4-models/population/founder-genome-feasibility-framework.md`.
+
+This inequality is necessary bookkeeping, not a sufficient feasibility proof. The mapping from observed states to historical mutation events remains an empirical/modeling problem and is kept explicit in the CAN-H-F burden ledger.
