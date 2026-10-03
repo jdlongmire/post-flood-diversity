@@ -43,7 +43,27 @@ place; never moved into the core unless the commitment itself changes.
   for them.
 - See `2-theory/ark-interface/`.
 
+## Ancillary hypothesis protocol
+
+New explanatory mechanisms are registered as `AH-###` entries before they are relied upon in a quantitative appraisal. Each entry records:
+
+- explanatory deficit/target;
+- observational inputs;
+- assumptions introduced;
+- proposed mechanism;
+- expected consequences;
+- discriminator or failure condition where presently available;
+- dependencies;
+- status: PROPOSED, ACTIVE, RETAINED, REVISED, REJECTED, or UNTESTABLE-AS-STATED.
+
+An AH entry is protective-belt work. If it changes the founder-stock rule, chronology, or hard-core historical event, Charter Rule 2 requires programme-revision treatment instead.
+
+### Registered ancillary hypotheses
+
+None yet. PDP-03 should generate them from quantified deficits rather than pre-populating rescue mechanisms.
+
 ## Revision log
 
+- 2026-10-03: Added AH-### ancillary-hypothesis protocol under Charter Rule 4.
 - 2026-10-03: Register seeded from the boundary specification (sections
   4.1-4.3).
