@@ -59,3 +59,7 @@ PDP consumes the global Flood as an upstream historical commitment from
 Flood-geology questions belong upstream; biological questions that touch the
 hull belong in `2-theory/ark-interface/` and are interfaced, not conflated,
 with geology.
+
+## Cross-repository execution bootstrap
+
+For governed GitHub execution, retrieve the current [EBCC-001 v1.0](https://github.com/jdlongmire/ai-bridge/blob/main/bootstrap/EBCC-001.md) from `jdlongmire/ai-bridge` and verify its version, status, and current-session tool capabilities. This is a shared operational discovery contract, not a replacement for this repository's own governing instructions, existing harness bootstrap, user authorization, or platform permissions. If inaccessible, report the gap and follow local governance; do not infer authority.
